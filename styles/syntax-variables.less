@@ -1,0 +1,31 @@
+@import "colors";
+
+// This defines all syntax variables that syntax themes must implement when they
+// include a syntax-variables.less file.
+
+// General colors
+@syntax-text-color: @gray-b;
+@syntax-cursor-color: @gray-b;
+@syntax-selection-color: darken(@gray-h3, 5%);
+@syntax-background-color: @gray-h3;
+
+// Guide colors
+@syntax-wrap-guide-color: @gray-h2;
+@syntax-indent-guide-color: @gray-h2;
+@syntax-invisible-character-color: @gray-h2;
+
+// For find and replace markers
+@syntax-result-marker-color: @gray-h;
+@syntax-result-marker-color-selected: white;
+
+// Gutter colors
+@syntax-gutter-text-color: @gray-h;
+@syntax-gutter-text-color-selected: @gray-h;
+@syntax-gutter-background-color: @gray-h3;
+@syntax-gutter-background-color-selected: @gray-h2;
+
+// For git diff info. i.e. in the gutter
+@syntax-color-renamed: @blue;
+@syntax-color-added: @green;
+@syntax-color-modified: @teal;
+@syntax-color-removed: @red;

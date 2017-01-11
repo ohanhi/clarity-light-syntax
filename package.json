@@ -1,0 +1,16 @@
+{
+  "name": "clarity-light-syntax",
+  "theme": "syntax",
+  "version": "1.0.0",
+  "description": "A desaturated theme for greater focus on the code",
+  "keywords": [
+    "syntax",
+    "theme",
+    "light"
+  ],
+  "repository": "https://github.com/ohanhi/clarity-light-syntax",
+  "license": "BSD3",
+  "engines": {
+    "atom": ">=1.0.0 <2.0.0"
+  }
+}
