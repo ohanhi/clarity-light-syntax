@@ -11,6 +11,6 @@
   "repository": "https://github.com/ohanhi/clarity-light-syntax",
   "license": "BSD3",
   "engines": {
-    "atom": ">=1.0.0 <2.0.0"
+    "atom": ">=1.13.0 <2.0.0"
   }
 }
